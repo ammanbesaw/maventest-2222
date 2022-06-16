@@ -13,7 +13,7 @@ http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/sc
 	<secure-properties:config name="Secure_Properties_Config" doc:name="Secure Properties Config" doc:id="94088346-4346-4f45-a1ef-81b932a4c00c" file="dev.yaml" key="mulesoft12345678" />
 	<flow name="maventest-222Flow" doc:id="0adccc98-6b4f-43a3-85a9-f48fd281971f" >
 		<http:listener doc:name="Listener" doc:id="de0b31ac-7666-4a90-9500-a3ecc3ad7a8b" config-ref="HTTP_Listener_config" path="${secure::http.path}"/>
-		<set-payload value="#[&quot;The portapotty is &quot; ++ p('secure::http.path')]" doc:name="Set Payload" doc:id="57ec00a6-755f-4d2b-9af4-e407b443c4e3" />
+		<set-payload value="#[&quot;The port number is &quot; ++ p('secure::http.path')]" doc:name="Set Payload" doc:id="57ec00a6-755f-4d2b-9af4-e407b443c4e3" />
 		<logger level="INFO" doc:name="Logger" doc:id="217bf551-98f2-4414-a9d3-012c0759deda" />
 	</flow>
 </mule>
