@@ -1,5 +1,0 @@
-<testExecutions version="1">
-  <file path="src\test\munit\maventest-222-test-suite.xml">
-    <testCase name="maventest-222-test-suite-maventest-222FlowTest" duration="185"/>
-  </file>
-</testExecutions>
