@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="maventest-222-test-suite.xml" />
+	<munit:test name="maventest-222-test-suite-maventest-222FlowTest" doc:id="87be7cf4-df01-4402-9148-20b822cc37fd" description="Test">
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to maventest-222Flow" doc:id="4df78fc6-c237-4b13-97cd-ac0990c0fe74" name="maventest-222Flow"/>
+		</munit:execution>
+		<munit:validation >
+			<munit:set-event doc:name="Set Event" doc:id="b76db73a-3f80-4e34-b22f-60c261f3817a" />
+		</munit:validation>
+	</munit:test>
+
+
+</mule>

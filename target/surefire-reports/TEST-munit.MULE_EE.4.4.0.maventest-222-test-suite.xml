@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MULE_EE.4.4.0.maventest-222-test-suite" time="0.286" failures="0" errors="0" skipped="0" tests="1">
+  <properties>
+    <property key="sun.desktop" value="windows"/>
+    <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property key="java.specification.version" value="11"/>
+    <property key="sun.cpu.isalist" value="amd64"/>
+    <property key="sun.jnu.encoding" value="Cp1252"/>
+    <property key="java.class.path" value="C:\Program Files\Maven\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property key="java.vm.vendor" value="Oracle Corporation"/>
+    <property key="sun.arch.data.model" value="64"/>
+    <property key="user.variant" value=""/>
+    <property key="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property key="user.timezone" value="America/Chicago"/>
+    <property key="maven.conf" value="C:\Program Files\Maven\apache-maven-3.8.6/conf"/>
+    <property key="os.name" value="Windows 10"/>
+    <property key="java.vm.specification.version" value="11"/>
+    <property key="sun.java.launcher" value="SUN_STANDARD"/>
+    <property key="user.country" value="US"/>
+    <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15\bin"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package deploy -DmuleDeploy"/>
+    <property key="jdk.debug" value="release"/>
+    <property key="maven.home" value="C:\Program Files\Maven\apache-maven-3.8.6"/>
+    <property key="sun.cpu.endian" value="little"/>
+    <property key="user.home" value="C:\Users\Aman"/>
+    <property key="user.language" value="en"/>
+    <property key="sun.stderr.encoding" value="cp437"/>
+    <property key="java.specification.vendor" value="Oracle Corporation"/>
+    <property key="java.version.date" value="2022-04-19"/>
+    <property key="java.home" value="C:\Program Files\Java\jdk-11.0.15"/>
+    <property key="file.separator" value="\"/>
+    <property key="java.vm.compressedOopsMode" value="Zero based"/>
+    <property key="line.separator" value="&#xd;&#xa;"/>
+    <property key="sun.stdout.encoding" value="cp437"/>
+    <property key="java.specification.name" value="Java Platform API Specification"/>
+    <property key="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property key="user.script" value=""/>
+    <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property key="muleDeploy" value="true"/>
+    <property key="java.runtime.version" value="11.0.15+8-LTS-149"/>
+    <property key="user.name" value="Aman"/>
+    <property key="path.separator" value=";"/>
+    <property key="os.version" value="10.0"/>
+    <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property key="file.encoding" value="Cp1252"/>
+    <property key="guice.disable.misplaced.annotation.check" value="true"/>
+    <property key="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property key="java.vendor.version" value="18.9"/>
+    <property key="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property key="java.io.tmpdir" value="C:\Users\Aman\AppData\Local\Temp\"/>
+    <property key="java.version" value="11.0.15"/>
+    <property key="user.dir" value="C:\Users\Aman\AnypointStudio\studio-workspace\maventest-222"/>
+    <property key="os.arch" value="amd64"/>
+    <property key="maven.multiModuleProjectDirectory" value="C:\Users\Aman\AnypointStudio\studio-workspace\maventest-222"/>
+    <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property key="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property key="sun.os.patch.level" value=""/>
+    <property key="java.library.path" value="C:\Program Files\Java\jdk-11.0.15\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.8.6\bin;C:\Users\Aman\AppData\Local\Microsoft\WindowsApps;C:\Users\Aman\AppData\Local\GitHubDesktop\bin;."/>
+    <property key="java.vendor" value="Oracle Corporation"/>
+    <property key="java.vm.info" value="mixed mode"/>
+    <property key="java.vm.version" value="11.0.15+8-LTS-149"/>
+    <property key="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.8.6\bin\m2.conf"/>
+    <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property key="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.8.6\lib\jansi-native"/>
+    <property key="java.class.version" value="55.0"/>
+    <property key="munit.system.properties.file" value="C:\Users\Aman\AnypointStudio\studio-workspace\maventest-222\target\user.system.properties"/>
+    <property key="org.glassfish.grizzly.DEFAULT_MEMORY_MANAGER" value="org.glassfish.grizzly.memory.HeapMemoryManager"/>
+  </properties>
+  <testcase time="0.185" name="maventest-222-test-suite-maventest-222FlowTest" classname="MULE_EE.4.4.0.maventest-222-test-suite"/>
+</testsuite>
